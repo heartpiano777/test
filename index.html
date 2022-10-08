@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>計画表作成</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h id="top"></h>
+    <header id="header">
+        <h1 id="logo"><a href="">Study Plan</a></h1>
+    </header>
+
+    <main>
+        
+        <form id="settei">
+            <div class="form">
+                <p class="text">計画の期間を入力してください</p>
+                <input type="number" id="year" name="year" value=2022>年
+                <select id="month" name="month">
+                    <option value="-----">-----</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>月
+                <select id="day" name="day">
+                    <option value="-----">-----</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                </select>日～
+                <br>
+                <input type="number" id="year2" name="year" value=2022>年
+                <select id="month2" name="month">
+                    <option value="-----">-----</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>月
+                <select id="day2" name="day">
+                    <option value="-----">-----</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                </select>日　
+                
+                <p class="text">科目を選んでください</p>
+                <label><input type="checkbox" id="subject1" name="subject" value=1>国語</label>
+                <label><input type="checkbox" id="subject2" name="subject" value=2>数学</label>
+                <label><input type="checkbox" id="subject3" name="subject" value=3>理科</label>
+                <label><input type="checkbox" id="subject4" name="subject" value=4>社会</label>
+                <label><input type="checkbox" id="subject5" name="subject" value=5>英語</label>
+            </div>
+            <p id="tukaikata"><a href="index2.html">使い方</a></p>
+            <button id="btn" type="button">計画表をつくる</button>
+            <label><input type="checkbox" id="hukugen" name="hukugen" value="hukugen">復元する</label>
+        </form>
+        <button id="tate" class="button">　縦　</button>
+        <button id="calendar" class="button">カレンダー</button>
+        <p id="Today">Today</p>
+        <div id="hyouiti"></div>
+    </main>
+
+    <button id="reset" class="button">履歴をリセット</button>
+    <button id="sakujo" class="button">計画表を作り直す</button>
+    <ul id="nav-menu"><li class="nav-menu-items"><a href="#top">top</a></li></ul>
+
+</body>
+<script src="main.js"></script>
+</html>

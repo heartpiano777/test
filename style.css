@@ -1,0 +1,182 @@
+body{
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    margin: auto;
+	background-color: rgb(188, 228, 252);
+}
+
+#header{
+	display: flex;
+	position: fixed;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+	width: 100%;
+	background-color: lightskyblue;
+}
+
+#logo {
+	margin-left: 20px;
+}
+
+#logo a {
+	text-decoration: none;
+	color: black;
+}
+
+#nav-menu {
+	list-style: none;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.nav-menu-items {
+	margin-right: 30px;
+}
+
+main{
+   margin: auto;
+   padding-top: 100px;
+}
+
+#setumei{
+	margin: auto;
+	width: 700px;
+	background-color: white;
+	border: solid 5px gray;
+}
+
+.form { 
+    margin: auto;
+    text-align: center;  
+    font-size:20px;
+    border: solid 5px #aaaaaa;
+    padding-bottom: 30px;
+    width: 600px;
+	background-color: white;
+}
+
+.text{
+    font-size:30px;
+}
+
+.button {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#tukaikata{
+	padding-top: 1px;
+}
+
+#ketteibtn{
+    font-size:20px;
+}
+
+
+#hyouiti {
+	margin-top: 3em;
+}
+
+.retu{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.hyou{
+	text-align:center;
+	margin:auto;
+	font-size:1em;
+	width:300px;
+	padding-bottom: 10px;
+	padding-right:20px;
+	padding-left: 20px;
+	border: dashed 5px #f59bdb;
+	background-color: white;
+}
+
+.hyou2{
+	text-align: center;
+	font-size:1em;
+	width:150px;
+	width: (100% / 7);
+	height:150px;
+	border: dashed 5px #f59bdb;
+	background-color: white;
+}
+
+.hiduke {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: left;
+	font-size: 2rem;
+}
+
+.Sunday {
+	color: red;
+}
+
+.Saturday {
+	color: blue;
+}
+
+.hiduke2 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: left;
+	padding-bottom: 1em;
+	font-size: 1.1rem;
+}
+
+.nakami {
+	font-size: 1rem;
+	margin-bottom:3px;
+	width: 300px;
+}
+.nakami2{
+	margin: auto;
+	font-size: 1rem;
+	margin-bottom:10px;
+	width: 130px;
+}
+
+.Japanese{
+	background: linear-gradient(rgb(255, 93, 93), white);
+	border-top: solid rgb(255, 200, 200);
+	border-left: solid grey;
+	border-bottom: solid grey;
+	border-right: solid grey;
+}
+
+.Math{
+	background: linear-gradient(rgb(113, 113, 255), white); 
+	border-top: solid rgb(200, 200, 255);
+	border-left: solid grey;
+	border-bottom: solid grey;
+	border-right: solid grey;
+}
+
+.Science{
+	background: linear-gradient(green, white); 
+	border-top: solid rgb(57, 255, 57);
+	border-left: solid grey;
+	border-bottom: solid grey;
+	border-right: solid grey;
+}
+
+.Social_studies{
+	background: linear-gradient(rgb(255, 187, 61), white); 
+	border-top: solid rgb(255, 200, 200);
+	border-left: solid grey;
+	border-bottom: solid grey;
+	border-right: solid grey;
+}
+
+.English{
+	background: linear-gradient(rgb(255, 60, 255), white);
+	border-top: solid rgb(200, 0, 200);
+	border-left: solid grey;
+	border-bottom: solid grey;
+	border-right: solid grey;
+}
